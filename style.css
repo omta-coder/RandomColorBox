@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#box{
+    height: 300px;
+    width: 300px;
+    background-color: rgb(44, 128, 116);
+}
+button{
+    padding: 10px 35px;
+    color: #fff;
+    font-size: 20px;
+    background-color: rgb(41, 117, 117);
+    border: none;
+}
